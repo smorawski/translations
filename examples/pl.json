@@ -1,0 +1,12 @@
+{
+  "main": {
+    "sidebar": {
+      "project": "Projekt",
+      "title": "Nazwa projektu."
+    },
+    "statusbar": {
+      "statusbar_empty": "Pusto! Brak wpisów.",
+      "statusbar_ok": "Ok."
+    }
+  }
+}
