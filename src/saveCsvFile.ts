@@ -14,7 +14,7 @@ export const saveCsvFile = async (
 
   Object.entries(csvObject).forEach(([translationKey, translations]) => {
     file.write(
-      `"${translationKey}";"${translationNames
+      `"${translationKey}","${translationNames
         .map((translationName) =>
           wrapWithQuotes(translations[translationName ?? ""])
         )

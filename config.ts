@@ -6,10 +6,10 @@ type TranslationFile = {
 export const translationFiles: TranslationFile[] = [
   {
     name: "en",
-    path: "./examples/en.json",
+    path: "./src/examples/en.json",
   },
   {
     name: "pl",
-    path: "./examples/pl.json",
+    path: "./src/examples/pl.json",
   },
 ];
