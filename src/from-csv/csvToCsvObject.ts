@@ -1,4 +1,4 @@
-import { CsvObject } from "./types";
+import { CsvObject } from "../types";
 
 export const trimCitations = (text: string) => {
   // citation at the start or the end of the string

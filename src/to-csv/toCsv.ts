@@ -1,8 +1,8 @@
-import { translationFiles } from "./config";
-import { createCsvObject } from "./src/createCsvObject";
-import { flattenTranslationObject } from "./src/flattenTranslationObject";
-import { loadTranslation } from "./src/loadTranslation";
-import { saveCsvFile } from "./src/saveCsvFile";
+import { translationFiles } from "../../config";
+import { createCsvObject } from "./createCsvObject";
+import { flattenTranslationObject } from "./flattenTranslationObject";
+import { loadTranslation } from "./loadTranslation";
+import { saveCsvFile } from "./saveCsvFile";
 
 Promise.all(
   translationFiles.map(async ({ name, path }) => ({

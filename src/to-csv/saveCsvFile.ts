@@ -1,6 +1,6 @@
 import { createWriteStream } from "fs";
-import { CsvObject } from "./types";
-import { wrapWithQuotes } from "./helpers";
+import { CsvObject } from "../types";
+import { wrapWithQuotes } from "../helpers";
 
 // maybe not needed?
 export const saveCsvFile = async (

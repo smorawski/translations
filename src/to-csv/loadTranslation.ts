@@ -1,5 +1,5 @@
 import fs from "fs/promises";
-import { TranslationObject } from "./types";
+import { TranslationObject } from "../types";
 
 // maybe not needed - we will see
 export const loadTranslation = async (

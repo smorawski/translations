@@ -1,5 +1,5 @@
 import { csvToCsvObject, splitLine, trimCitations } from "./csvToCsvObject";
-import { translationExample } from "./examples/translation-example";
+import { translationExample } from "../examples/translation-example";
 
 describe("csvToCsvObject", () => {
   it("should return an object from csv file content", () => {

@@ -1,4 +1,4 @@
-import { CsvObject, FlatTranslation } from "./types";
+import { CsvObject, FlatTranslation } from "../types";
 
 export const createCsvObject = (
   translations: { name: string; content: FlatTranslation }[]

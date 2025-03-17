@@ -1,5 +1,5 @@
-import { isTranslationObject } from "./helpers";
-import { FlatTranslation, TranslationObject } from "./types";
+import { isTranslationObject } from "../helpers";
+import { FlatTranslation, TranslationObject } from "../types";
 
 export const flattenTranslationObject = (
   layer: TranslationObject,

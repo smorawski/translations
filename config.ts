@@ -13,3 +13,5 @@ export const translationFiles: TranslationFile[] = [
     path: "./src/examples/pl.json",
   },
 ];
+
+export const csvFile: string = "./src/examples/example.csv";
